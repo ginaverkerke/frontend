@@ -68,14 +68,13 @@ https://www.ing.nl/particulier/index.html
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 
- (images/screenshot_1)
- (images/screenshot_2)
- (images/screenshot_3)
+images/ing.jpg
+
  
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
-
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
+ images/breakdown.jpg
 ?
