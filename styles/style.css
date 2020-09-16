@@ -3,6 +3,44 @@
   box-sizing:border-box;  
 }
 
+body {
+    background-color: #F5F5F5;
+    font-family: arial;
+}
+
 #logo {
     width: 120px;
+}
+
+header {
+    display: flex;
+}
+
+button {
+    color: white;
+    border: 1px solid transparent;
+    background-color:#FF6200;
+    border-bottom-color: #b34500;
+    border-top-color: #ffc099;
+    padding: 0.8em;
+    border-radius: 0.8em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h1, h2 {
+    color: #ff6200
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 1;
+}
+
+section {
+    background-color: white;
+    border: 1px solid transparent;
+    border-bottom: rgb(235, 235, 235);
+    padding: 1em;
+    margin: 1em;
 }

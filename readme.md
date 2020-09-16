@@ -40,7 +40,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Wat goed ging is dat ik beter ben in coderen dan dat ik vaak van mezelf denk. De oefeningen die we voor de lessen moeten maken, ondersteunen ook heel goed. Hier heb ik heel veel van geleerd.
+
+Lastig: Ik heb moeite met Javascript. Ook zit ik een beetje te strugglen met hoe ik een caroussel moet maken.
 **Screenshot(s):**
+
 
 -screenshot(s) van hoe ver je bent-
 
