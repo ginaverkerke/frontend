@@ -5,27 +5,60 @@
 
 body {
     background-color: #F5F5F5;
-    font-family: arial;
+    font-family: avenir;
+    width: 100%;
+  
 }
 
 #logo {
-    width: 120px;
+ width: 8em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li:first-of-type {
+    margin-right: auto;
+    margin-left: -35px;
 }
 
 header {
-    display: flex;
+  padding: 0px 10px;
+    position: flex;
+    background-color: white;
 }
 
-button {
+.headerimg {
+    width: 2.5em;
+}
+
+
+
+button, #button {
     color: white;
     border: 1px solid transparent;
     background-color:#FF6200;
     border-bottom-color: #b34500;
     border-top-color: #ffc099;
-    padding: 0.8em;
-    border-radius: 0.8em;
+    padding: 0.5em 1em;
+    border-radius: 0.6em;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.9em;
+    margin: 0.5em;
+}
+
+#button {
+    position: relative;
+    top: 10px;
+    padding: 00.3em 0.6em;;
+}
+
+#taal {
+    position: relative; 
+    top: 9px;
+    right: 10px;
 }
 
 h1, h2 {
@@ -33,14 +66,66 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 1;
 }
 
 section {
+    position: relative;
     background-color: white;
     border: 1px solid transparent;
-    border-bottom: rgb(235, 235, 235);
+    box-shadow: 0px 4px #D0D0D0;
     padding: 1em;
     margin: 1em;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.pijltje {
+    display: grid;
+    width: 1.5em;
+}
+
+.sectionlink {
+    position: relative;
+    left: 30px;
+    top: -20px;
+    width: 100&;
+}
+.upperimg {
+    position: relative;
+    top: -17px;
+    left: -17px;
+    width: 108%;
+}
+
+.lowerimg {
+    position: relative;
+    border-radius: 1em;
+    width: 100%;
+}
+
+footer {
+    background-color: #EBEBEB;
+    display:grid;
+    grid-auto-columns:min-content;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border-top: solid white;
+    padding: 2em;
+}
+
+label {
+    display: flex;
+    
+}
+
+input {
+    width: 30em;
+    padding: 0.5em;
+}
+
+footer a {
+    margin: 5px;
 }
