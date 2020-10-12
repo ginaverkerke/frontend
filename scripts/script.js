@@ -2,7 +2,7 @@ var hamburger1;
 var hamburger2;
 
 
-hamburger1 = document.getElementsByClassName("hamburger");
+hamburger1 = document.querySelector(".hamburger");
 
 hamburger1.addEventListener("click", hamburger2);
 
