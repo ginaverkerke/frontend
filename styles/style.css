@@ -26,17 +26,22 @@ ul li:first-of-type {
 
 header {
   padding: 0px 10px;
-    position: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
     background-color: white;
+    margin: 0%;
+      box-shadow: 0px 2px #D0D0D0;
 }
 
-.headerimg {
+.headerimg, .hamburger {
     width: 2.5em;
 }
 
 
-
-button, #button {
+.buttons, #button {
     color: white;
     border: 1px solid transparent;
     background-color:#FF6200;
@@ -54,6 +59,7 @@ button, #button {
     top: 10px;
     padding: 00.3em 0.6em;;
 }
+
 
 #taal {
     position: relative; 
@@ -105,6 +111,23 @@ section {
     width: 100%;
 }
 
+.checkbox {
+    position: relative;
+    top: 15px;
+    right: 197px;
+}
+
+#onthoud {
+    position: relative;
+    bottom: 24px;
+    left: 20px;
+}
+
+#kwijt {
+    color: darkslateblue;
+    font-weight: 500;
+}
+
 footer {
     background-color: #EBEBEB;
     display:grid;
@@ -128,4 +151,13 @@ input {
 
 footer a {
     margin: 5px;
+}
+
+#inlogsection {
+    position: relative;
+    top: 200px;
+}
+
+.uitgeklapt {
+    opacity: 0;
 }

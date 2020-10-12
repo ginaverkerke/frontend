@@ -14,20 +14,25 @@
 <body>
 
 	<script src="scripts/script.js"></script>
-    
-       <header>
+    <header>
         <ul>
-            <li><img id = "logo" src="images/inglogo.png"></li>
-         <li id="taal"> NL | EN</li>
+            <li> <a href="index.html"><img id = "logo" src="images/inglogo.png"></a></li>
+            <li id="taal"> NL | EN</li>
         </ul>
     </header>
     
 
-    <section>
-        <h2> Log in bij Mijn ING</h2>
-        <label for="uname">Gebruikersnaam</label>
-        <input type="text" name="uname" required>
-        <label for="psw">Wachtwoord</label>
-        <input type="password" name="psw" required>
+    <section id = "inlogsection">
+        <h1> Log in bij Mijn ING</h1>
+        <form>
+            <label for="uname">Gebruikersnaam</label>
+            <input type="text" name="uname" required>
+            <label for="psw">Wachtwoord</label>
+            <input type="password" name="psw" required>
+            <input type="checkbox" class = "checkbox">
+                <p id = "onthoud">Onthoud mijn gebruikersnaam</p>
+        </form>
+        <button type = "button" class = "buttons"> inloggen</button>
+        <a id = "kwijt"> inloggegevens kwijt?</a>
     </section>
 </body>
