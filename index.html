@@ -9,7 +9,6 @@
 	<title>ING</title>
 	
 	<link href="styles/style.css" rel="stylesheet"> 
-	<script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -22,13 +21,22 @@
             <li><img class = "headerimg" src="images/zoeken.png"></li>
             <li> <button type = "button" class = "menu"><img class = "hamburger" src="images/hamburgermenu.png"></button></li>
         </ul>
+        
+        <!-- Dit is mijn uitgeklapte hamburgermenu. deze is alleen zichtbaar als je op het hamburgermenu klikt.-->
+        <div class = "nav">
+            <h3 class ="menukop">Particulier</h3>
+            <button type = "button" class = "kruis" ><img src="images/x.png"></button>
+            <a href =#producten>Producten</a>
+            <a href =#advies> Advies</a>
+            <a href =#punten> Punten</a>
+            <a href =#servicecontact>Service en Contact</a>
+            <a href =#particulier> Particulier</a>
+            <a href =#personalbanking> Personal Banking</a>
+            <a href =#privatebanking>Private Banking</a>
+            <a href =#zakelijk> Zakelijk</a>
+            <a href =#inginenglish> ING in English</a>
+        </div>
     </header>
-  
-    <section>
-        <h1>We mogen weer!</h1>
-        <h2>Op de velden, langs de lijn, in de kleedkamer, in de spits  of op de bank</h2>
-        <button type="button" class = "buttons">Ontdek meer</button>
-    </section>
     
     <section>
         <img class= "upperimg" src = "images/plaatje_1.jpg">
@@ -45,6 +53,7 @@
         <button type="button" class = "buttons">Lees meer</button>
     </section>
     
+    <!-- De image zit hier niet bovenaan in de section, maar onder de header. De afbeelding ziet er dus net anders uit dus vandaar een andere class dan de voorgaande.-->
     <section>
         <h1>Rekening openen met je Android mobiel?</h1>
         <img class= "lowerimg" src = "images/plaatje_3.jpg">
@@ -68,6 +77,8 @@
         <a>Toegankelijkheid</a>
         
     </footer>
+    
+    <script src="scripts/script.js"></script>
     
 </body>
 	

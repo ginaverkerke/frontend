@@ -8,8 +8,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1.     //https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
-2. -bron 2-
-3. -...-
+2. - https://codepen.io/ginaverkerke/pen/RwaJxvx-
+3. -https://www.bitdegree.org/learn/css-link-color-
+4. -https://www.bitdegree.org/learn/css-link-color-
+5. -https://stackoverflow.com/questions/4520943/fade-borders-in-css-
 
 
 
@@ -25,13 +27,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-Ik was ziek-
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Tijdens dit gesprek liet ik weten dat ik nog niet heel ver was. De studentassistente vertelde mij dat ik al veel verder was dan de rest. Ik had al 2 pagina's, alle html zat er in en ik was ook al erg ver met css. Het enige wat ik nog moest doen was een caroussel en een micro interactie. Mij werd verteld dat ik mij beter eerst kon focussen op het uit laten klappen van het hamburgermenu, en als ik later nog tijd heb ik kan kijken of het mij nog lukt om een caroussel te maken.
 
 
 
